@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Barbearia Etec</title>
+		<link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/contato.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+<header>
+    <!-- cabeçalho do conteudo da pagina -->
+    <div class="caixa">
+      <h1><img src="img/logo.png" /></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="index.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+<section id="inscription">
+    <div class="inscriptionTitle">
+        <h2>Faça sua inscrição</h2>
+    </div>
+    <form class="cardForm">
+        <h2 class="pa">*Lembrando Horário de Funcionamento das  09:00  as 20:00</h2>
+      <input class="cardName" type="text" placeholder="   Nome completo  " required>
+      <input class="cardEmail" type="email" placeholder="   Email  " required>
+        <div class="formSelect">
+            <label for="select">Qual período  deseja agendar seu corte ?</label>
+        </div>
+        <div class="select">
+            <input id="pc" type="radio" name="plataforma">
+            <label for="pc">Manhã</label>
+        </div>
+        <div class="select">
+            <input id="xbox" type="radio" name="plataforma">
+            <label for="xbox">Tarde</label>
+        </div>
+        <div class="select">     
+            <input id="playstation" type="radio" name="plataforma">
+            <label for="playstation">Noite</label>
+        </div>
+        <div class="fornNews">
+            <input id="selecao" type="checkbox" name="selecao">
+            <label for="option">Desejo receber novidades.</label>
+        </div>
+        <div class="submitReset">
+            <input id="botSubmit" type="submit" value="Enviar">    
+            <input id="botReset" type="reset" value="Limpar">
+        </div>
+    </form>
+</section>
